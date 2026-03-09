@@ -1,0 +1,52 @@
+# Исключения для Node.js
+node_modules/
+package-lock.json
+
+
+design/
+
+# Файлы окружения
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Сборка - ВСЯ папка public исключена
+public/
+dist/
+build/
+out/
+.next/
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Кеш
+.cache/
+.parcel-cache/
+
+# Временные файлы
+*.tmp
+*.temp
+.DS_Store
+
+# CSS файлы в папке assets/css (генерируются из SCSS)
+assets/styles/**/*.css
+assets/styles/**/*.css.map
+
+# Исключаем папку со скринами из макета
+previews/
+
+# Исключаем все HTML файлы кроме исходников
+*.html
+!html/**/*.html
+!assets/**/*.html
