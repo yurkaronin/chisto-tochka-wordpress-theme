@@ -1,0 +1,17 @@
+.card-label {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: max-content;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #ffd943;
+  padding: 5px 10px;
+  background: #040404;
+  border-radius: 60px;
+  min-height: 24px;
+}

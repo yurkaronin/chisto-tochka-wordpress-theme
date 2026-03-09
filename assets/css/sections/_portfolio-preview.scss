@@ -1,0 +1,20 @@
+.portfolio-preview {
+  &__filter {
+    margin-bottom: 32px;
+  }
+  &__slider {
+    .swiper {
+      padding-bottom: 32px;
+    }
+    .swiper-pagination-bullet {
+      background: #ffffff;
+    }
+    .swiper-pagination-bullet-active {
+      background: #ffd943;
+    }
+    .portfolio-preview-card {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}

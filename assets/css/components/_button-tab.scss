@@ -1,0 +1,25 @@
+.button-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: max-content;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  background: #272727;
+  border-radius: 40px;
+  padding: 14px 32px;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+  &:hover {
+    border: 2px solid #ffffff;
+  }
+  &.isActive {
+    border: 2px solid #ffd943;
+  }
+}

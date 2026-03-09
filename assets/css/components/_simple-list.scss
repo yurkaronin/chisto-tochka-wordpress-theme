@@ -1,0 +1,16 @@
+.simple-list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+
+  &__item {
+    list-style: none;
+  }
+  &__item::before {
+    content: url(../img/icon-list-bulet.svg);
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    margin-right: 6px;
+  }
+}

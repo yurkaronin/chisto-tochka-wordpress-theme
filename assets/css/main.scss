@@ -1,0 +1,47 @@
+// Базовые стили
+@use "base/fonts";
+@use "base/root";
+@use "base/global";
+@use "base/support";
+
+// Компоненты
+@use "components/wrapper";
+@use "components/list-group";
+@use "components/beyond-scope";
+@use "components/simple-list";
+@use "components/title";
+@use "components/subtitle";
+@use "components/button";
+@use "components/button-close";
+@use "components/button-tab";
+@use "components/button-menu";
+@use "components/phone";
+@use "components/social";
+@use "components/link";
+@use "components/time";
+@use "components/main-navigation";
+@use "components/benefits-small";
+@use "components/decorate";
+@use "components/copyright";
+@use "components/basic-services-group";
+@use "components/preview-card";
+@use "components/preview-card-two";
+@use "components/preview-card-long";
+@use "components/service-packages-group";
+@use "components/preview-card-price";
+@use "components/card-label";
+@use "components/mini-quiz-form";
+@use "components/buttons-list";
+@use "components/portfolio-preview-card";
+
+// секции
+@use "sections/section";
+@use "sections/header";
+@use "sections/mobile-navigation";
+@use "sections/hero";
+@use "sections/basic-services";
+@use "sections/service-packages";
+@use "sections/mini-quiz";
+@use "sections/portfolio-preview";
+@use "sections/footer";
+

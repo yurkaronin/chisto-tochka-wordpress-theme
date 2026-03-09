@@ -1,0 +1,25 @@
+.list-group {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 42px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+
+  @media(max-width: 1379px) {
+    gap: 32px;
+  }
+
+  @media(max-width: 767px) {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    color: inherit;
+    margin-bottom: 8px;
+  }
+
+}

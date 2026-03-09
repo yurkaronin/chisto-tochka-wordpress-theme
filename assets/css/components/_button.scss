@@ -1,0 +1,65 @@
+.button {
+  background: #ffd943;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: #040404;
+  border-radius: 12px;
+  padding: 21px 30px;
+  text-align: center;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: var(--transition);
+  border: none;
+
+  @media(max-width: 767px) {
+    padding: 16px 20px;
+    font-size: 14px;
+  }
+  &__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    path {
+      transition: var(--transition);
+    }
+  }
+
+  &:hover {
+    background: #ffe47a;
+  }
+  &:hover &__icon {
+    path {
+      fill: currentColor;
+    }
+  }
+
+  &.-transparent {
+    background-color: transparent;
+    color: #ffd943;
+    border: 1px solid #ffd943;
+
+    &:hover {
+      background: #ffe47a;
+      color: #040404;
+      border: 1px solid #ffe47a;
+    }
+  }
+
+  &.-small {
+    padding: 16px 20px;
+    font-size: 14px;
+
+    @media(max-width: 767px) {
+      padding: 16px 20px;
+      font-size: 14px;
+    }
+  }
+
+}
