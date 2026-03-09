@@ -30,7 +30,6 @@
 @use "components/service-packages-group";
 @use "components/preview-card-price";
 @use "components/card-label";
-@use "components/mini-quiz-form";
 @use "components/buttons-list";
 @use "components/portfolio-preview-card";
 
@@ -45,3 +44,4 @@
 @use "sections/portfolio-preview";
 @use "sections/footer";
 
+@use "legacy/mini-quiz-form";

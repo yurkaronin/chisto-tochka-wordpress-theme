@@ -29,6 +29,9 @@
     color: #8b8b8b;
     padding: 24px 20px 30px;
     border-radius: 16px;
+    @media (max-width: 767px) {
+      padding: 26px 15px 22px;
+    }
   }
   &__title {
     margin: 0;
