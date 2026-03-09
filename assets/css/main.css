@@ -1407,7 +1407,7 @@ input[type=radio].visually-hidden {
 }
 @media (max-width: 767px) {
   .header__body {
-    padding: 14px 10px;
+    padding: 14px 24px;
     border-radius: 0 0 32px 32px;
   }
 }
@@ -1460,11 +1460,6 @@ input[type=radio].visually-hidden {
 }
 .header__bottom-col.-nav {
   justify-self: flex-end;
-}
-@media (max-width: 767px) {
-  .header__bottom-col.-logo {
-    justify-self: center;
-  }
 }
 .header__logo {
   max-width: 280px;
@@ -1980,4 +1975,22 @@ input[type=radio].visually-hidden {
     border-radius: 0 0 32px 32px;
     margin: 0 10px;
   }
+}
+
+.mobile-navigation-menu-open {
+  overflow: hidden;
+}
+.mobile-navigation-menu-open .button-menu span {
+  background-color: transparent !important;
+}
+.mobile-navigation-menu-open .button-menu span:after {
+  transform: rotate(45deg);
+  width: 14px;
+}
+.mobile-navigation-menu-open .button-menu span:before {
+  transform: rotate(-45deg);
+  width: 14px;
+}
+.mobile-navigation-menu-open .mobile-navigation {
+  right: 0;
 }/*# sourceMappingURL=main.css.map */

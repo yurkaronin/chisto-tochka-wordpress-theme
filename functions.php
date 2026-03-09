@@ -404,6 +404,20 @@ function clean_dot_enqueue_assets() {
 		true
 	);
 
+  /*
+	|--------------------------------------------------------------------------
+	| Скрипт вызова мобильного меню при клике на кнопку
+	|--------------------------------------------------------------------------
+	*/
+
+wp_enqueue_script(
+    'clean-dot-mobile-navigation-menu',
+    clean_dot_asset_uri( '/js/components/mobile-navigation-menu.js' ),
+    array(), // пустой массив = нет зависимостей
+    clean_dot_asset_version( 'assets/js/components/mobile-navigation-menu.js' ),
+    true
+);
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -491,3 +505,7 @@ function clean_dot_preload_front_page_fonts() {
 
 
 add_action( 'wp_head', 'clean_dot_preload_front_page_fonts', 2 );
+
+
+require_once get_template_directory() . '/inc/shortcodes/social-block.php';
+require_once get_template_directory() . '/inc/shortcodes/phones-block.php';
