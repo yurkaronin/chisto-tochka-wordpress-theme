@@ -890,7 +890,7 @@
                             </ul>
 
                             <div class="price-list-button">
-                              <a href="#" class="button">Получить расчёт под моё авто</a>
+                                <a href="#" class="button">Получить расчёт под моё авто</a>
                             </div>
                         </div>
                         <div class="prices__body-col -info">
@@ -917,6 +917,8 @@
         <div class="wrapper">
             <h2 class="title mg-reset"><span>Контакты </span><br>и адреса</h2>
             <p class="subtitle mg-reset">Приезжайте в удобную локацию или запишитесь по телефону</p>
+
+
         </div>
     </section>
 </main>
