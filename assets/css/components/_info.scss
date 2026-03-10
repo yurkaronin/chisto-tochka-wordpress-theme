@@ -1,0 +1,29 @@
+.info {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+  color: #8b8b8b;
+  margin: 0;
+  padding: 13px 11px;
+  display: inline-flex;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  max-width: max-content;
+  // flex-wrap: wrap;
+  align-items: flex-start;
+  &::before {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/icon-info.svg);
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    margin-left: 4px;
+    flex-shrink: 0;
+    margin-top: 3px;
+  }
+}

@@ -14,7 +14,7 @@
     background: #040404;
     color: var(--white);
     @media(max-width: 767px) {
-      padding: 14px 10px;
+      padding: 14px 24px;
       border-radius: 0 0 32px 32px;
     }
   }
@@ -71,7 +71,7 @@
   }
   &__bottom-col.-logo {
     @media(max-width: 767px) {
-      justify-self: center;
+      // justify-self: center;
     }
 
   }

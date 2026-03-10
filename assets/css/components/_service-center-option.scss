@@ -1,0 +1,28 @@
+.service-center-option {
+  background-color: #040404;
+  color: #8b8b8b;
+  padding: 12px 21px;
+  border-radius: 16px;
+
+  &__grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &__name {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+  }
+  &__details {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}

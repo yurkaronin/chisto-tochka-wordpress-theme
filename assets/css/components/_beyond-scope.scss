@@ -6,15 +6,17 @@
   background: #272727;
   color: #8b8b8b;
 
-  @media (max-width: 1023px) {
+  @media (max-width: 1379px) {
     width: calc(100% + 40px);
     margin-inline: -20px;
-    padding: 20px;
+  }
+
+  @media (max-width: 1023px) {
+    width: 100%;
+    margin: 0 !important;
   }
 
   @media (max-width: 767px) {
     padding: 26px 15px 22px;
-    width: 100%;
-    margin: 0 !important;
   }
 }

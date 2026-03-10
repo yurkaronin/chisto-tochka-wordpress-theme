@@ -32,6 +32,9 @@
 @use "components/card-label";
 @use "components/buttons-list";
 @use "components/portfolio-preview-card";
+@use "components/info";
+@use "components/price-list";
+@use "components/service-center-option";
 
 // секции
 @use "sections/section";
@@ -42,6 +45,10 @@
 @use "sections/service-packages";
 @use "sections/mini-quiz";
 @use "sections/portfolio-preview";
+@use "sections/prices";
 @use "sections/footer";
 
 @use "legacy/mini-quiz-form";
+
+
+@use "interactive/mobile-navigation-menu-open";

@@ -14,29 +14,11 @@
                     </div>
                     <div class="header__top-col -phone laptop-hide tablet-hide mobile-hide">
                         <!-- Телефон  -->
-                        <a href="#" class="phone">8 918 089 60 09</a>
+                        <?php echo do_shortcode('[phones]'); ?>
                     </div>
                     <div class="header__top-col -social">
                         <!-- соц сети  -->
-                        <div class="social">
-                            <ul class="social__list">
-                                <li class="social__item">
-                                    <a href="#" class="social__link" target="_blank">
-                                        <img src="./img/icon-social-whatsapp.svg" alt="#">
-                                    </a>
-                                </li>
-                                <li class="social__item">
-                                    <a href="#" class="social__link" target="_blank">
-                                        <img src="./img/icon-social-telegram.svg" alt="#">
-                                    </a>
-                                </li>
-                                <li class="social__item">
-                                    <a href="#" class="social__link" target="_blank">
-                                        <img src="./img/icon-social-max.svg" alt="#">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        <?php echo do_shortcode('[social]'); ?>
                     </div>
                     <div class="header__top-col -button">
                         <a href="#" class="link">Записаться</a>
@@ -48,7 +30,7 @@
                     <div class="header__bottom-col -logo">
 
                         <a class="header__logo" href="#">
-                            <img src="./img/header-logo.png" alt="#">
+                            <img src="./img/header-logo.svg" alt="#">
                         </a>
 
                     </div>
@@ -86,7 +68,7 @@
                         <a href="#" class="link">Рассчитать</a>
                     </div>
                     <div class="header__bottom-col -button-menu desktop-hide">
-                        <button class="button-menu">
+                        <button class="button-menu js-show-mobile-navigation-menu">
                             <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 11H9M1 6H15M7 1H15" stroke="#161A1D" stroke-width="2" stroke-linecap="round"
@@ -110,22 +92,22 @@
                 <nav class="main-navigation">
                     <ul class="main-navigation__list">
                         <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#">Услуги</a>
+                            <a class="main-navigation__link" href="#home-section-basic-services">Услуги</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#">Пакеты</a>
+                            <a class="main-navigation__link" href="#home-section-service-packages">Пакеты</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#">Квиз</a>
+                            <a class="main-navigation__link" href="#home-section-mini-quiz">Квиз</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#">До/После</a>
+                            <a class="main-navigation__link" href="#home-section-portfolio-preview">Портфолио</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#">Цены</a>
+                            <a class="main-navigation__link" href="#home-section-prices">Цены</a>
                         </li>
                         <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#">Контакты</a>
+                            <a class="main-navigation__link" href="#home-section-contacts">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -139,33 +121,9 @@
             </div>
             <div class="mobile-navigation__row">
                 <!-- соц сети  -->
-                <div class="social">
-                    <ul class="social__list">
-                        <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
-                                <img src="./img/icon-social-whatsapp.svg" alt="#">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
-                                <img src="./img/icon-social-telegram.svg" alt="#">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link" target="_blank">
-                                <img src="./img/icon-social-max.svg" alt="#">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <?php echo do_shortcode('[social]'); ?>
             </div>
         </div>
-
-
-
-
-
-
 
 
     </div>
@@ -179,7 +137,7 @@
 
 <main class="main">
     <!-- Первый экран  -->
-    <section class="hero">
+    <section class="hero" id="home-section-hero">
         <div class="wrapper">
             <div class="hero__grid">
                 <div class="hero__col -text">
@@ -239,7 +197,7 @@
         <div class="decorate -left -top"></div>
     </section>
     <!-- Основные услуги  -->
-    <section class="basic-services section">
+    <section class="basic-services section" id="home-section-basic-services">
         <div class="wrapper">
             <div class="beyond-scope">
                 <div class="basic-services__top">
@@ -395,7 +353,7 @@
         </div>
     </section>
     <!-- Пакеты услуг  -->
-    <section class="service-packages section">
+    <section class="service-packages section" id="home-section-service-packages">
         <div class="wrapper">
 
             <div class="service-packages__top">
@@ -510,7 +468,7 @@
         </div>
     </section>
     <!-- Мини-квиз на 3 шага -->
-    <section class="mini-quiz section">
+    <section class="mini-quiz section" id="home-section-mini-quiz">
         <div class="wrapper">
             <div class="beyond-scope">
                 <div class="mini-quiz__body">
@@ -530,9 +488,8 @@
             </div>
         </div>
     </section>
-
     <!-- Наши работы «до/после»  -->
-    <section class="portfolio-preview section">
+    <section class="portfolio-preview section" id="home-section-portfolio-preview">
         <div class="wrapper">
             <h2 class="title">Наши работы <span>«до/после»</span></h2>
 
@@ -884,30 +841,87 @@
         </div>
     </section>
     <!-- Цены  -->
-    <section class="prices section">
+    <section class="prices section" id="home-section-prices">
         <div class="wrapper">
-            <h2 class="title mg-reset">Цены</h2>
-            <p class="subtitle">Цена зависит от размера авто и состояния.
-                Точную сумму скажем после осмотра/уточнения задачи.</p>
+            <div class="beyond-scope">
+                <div class="prices__top">
+                    <div class="prices__top-grid">
+                        <div class="prices__top-col">
+                            <h2 class="title mg-reset">Цены</h2>
+                        </div>
+                        <div class="prices__top-col">
+                            <p class="subtitle">Цена зависит от размера авто и состояния.
+                                Точную сумму скажем после осмотра/уточнения задачи.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prices__body">
+                    <div class="prices__body-grid">
+                        <div class="prices__body-col">
+                            <ul class="price-list">
+                                <li class="price-list__item">
+                                    <div class="service-center-option">
+                                        <div class="service-center-option__grid">
+                                            <div class="service-center-option__col">
+                                                <h3 class="service-center-option__name">Заголовок</h3>
+                                                <p class="service-center-option__details">ткань/кожа/пластик</p>
+                                            </div>
+                                            <div class="service-center-option__col">
+                                                <span class="preview-card-price"><b>Цена:</b>от 5 000 ₽</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="price-list__item">
+                                    <div class="service-center-option">
+                                        <div class="service-center-option__grid">
+                                            <div class="service-center-option__col">
+                                                <h3 class="service-center-option__name">Заголовок</h3>
+                                                <p class="service-center-option__details">ткань/кожа/пластик</p>
+                                            </div>
+                                            <div class="service-center-option__col">
+                                                <span class="preview-card-price"><b>Цена:</b>от 5 000 ₽</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="price-list-button">
+                              <a href="#" class="button">Получить расчёт под моё авто</a>
+                            </div>
+                        </div>
+                        <div class="prices__body-col -info">
+                            <p class="info">Мойка включается как этап подготовки перед детейлингом (не отдельная услуга)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
     </section>
     <!-- Оставьте заявку -->
-    <section class="contact-form section">
+    <section class="contact-form section" id="home-section-contact-form">
         <div class="wrapper">
             <h2 class="title"><span>Оставьте заявку — </span><br>перезвоним и рассчитаем стоимость</h2>
             <p class="subtitle">Можно сразу позвонить: 8 918 089 60 09</p>
         </div>
     </section>
     <!-- Контакты и адреса -->
-    <section class="contact-us section">
+    <section class="contact-us section" id="home-section-contacts">
         <div class="wrapper">
             <h2 class="title mg-reset"><span>Контакты </span><br>и адреса</h2>
-            <p class="subtitle">Приезжайте в удобную локацию или запишитесь по телефону</p>
+            <p class="subtitle mg-reset">Приезжайте в удобную локацию или запишитесь по телефону</p>
         </div>
     </section>
 </main>
 
-<footer class="footer">
+<footer class="footer" id="home-section-footer">
     <div class="wrapper">
         <div class="footer__grid">
             <div class="footer__col -copyright">
@@ -916,28 +930,10 @@
             <div class="footer__col -contacts">
                 <div class="footer__contacts">
                     <!-- Телефон  -->
-                    <a href="#" class="phone">8 918 089 60 09</a>
+                    <?php echo do_shortcode('[phones]'); ?>
 
                     <!-- соц сети  -->
-                    <div class="social">
-                        <ul class="social__list">
-                            <li class="social__item">
-                                <a href="#" class="social__link" target="_blank">
-                                    <img src="./img/icon-social-whatsapp.svg" alt="#">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link" target="_blank">
-                                    <img src="./img/icon-social-telegram.svg" alt="#">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link" target="_blank">
-                                    <img src="./img/icon-social-max.svg" alt="#">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php echo do_shortcode('[social]'); ?>
                 </div>
             </div>
         </div>
