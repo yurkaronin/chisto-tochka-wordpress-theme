@@ -40,8 +40,8 @@ yarn-error.log*
 .DS_Store
 
 # CSS файлы в папке assets/css (генерируются из SCSS)
-assets/styles/**/*.css
-assets/styles/**/*.css.map
+assets/css/**/*.css
+assets/css/**/*.css.map
 
 # Исключаем папку со скринами из макета
 previews/
