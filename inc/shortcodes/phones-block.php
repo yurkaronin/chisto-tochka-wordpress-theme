@@ -13,7 +13,7 @@ function mytheme_phones_shortcode() {
     ?>
     <!-- ТЕЛЕФОНЫ - РЕДАКТИРОВАТЬ ЗДЕСЬ -->
     <div class="phones-block">
-        <a href="tel:89180896009" class="phone">8 918 089 60 09</a>
+        <a href="tel:84737321601" class="phone">8 (473) 732-16-01</a>
 
     </div>
     <!-- КОНЕЦ БЛОКА ТЕЛЕФОНОВ -->
