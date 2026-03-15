@@ -1,0 +1,37 @@
+.contact-us {
+  margin-bottom: 0;
+  &__top {
+    margin-bottom: 46px;
+    @media (max-width: 767px) {
+      margin: 0;
+    }
+  }
+  &__top-grid {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 4fr 5fr 3fr;
+    align-items: flex-start;
+
+    @media(max-width: 1023px) {
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+    }
+
+    @media(max-width: 767px) {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+
+  &__maps-group {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .yandex-map {
+    min-width: 0;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+}

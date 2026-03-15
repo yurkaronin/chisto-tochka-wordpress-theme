@@ -1,0 +1,20 @@
+.form {
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+  &__input {
+    height: 40px;
+    input {
+      max-width: 100%;
+      width: 100%;
+      display: flex;
+      font-size: 16px;
+      border: 1px solid #8b8b8b;
+      border-radius: 12px;
+      padding: 10px 24px;
+      height: 48px;
+    }
+  }
+}

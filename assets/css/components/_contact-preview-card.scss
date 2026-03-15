@@ -1,0 +1,39 @@
+.contact-preview-card {
+  border-radius: 16px;
+  background: #040404;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  padding: 30px 22px;
+
+  &__header {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr auto;
+    align-items: flex-start;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 16px;
+  }
+
+  &__address {
+    font-style: inherit;
+    color: inherit;
+    display: block;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+  &__phone {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+  }
+}

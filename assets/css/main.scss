@@ -35,6 +35,10 @@
 @use "components/info";
 @use "components/price-list";
 @use "components/service-center-option";
+@use "components/form";
+@use "components/yandex-map";
+@use "components/contact-preview-card";
+
 
 // секции
 @use "sections/section";
@@ -46,7 +50,10 @@
 @use "sections/mini-quiz";
 @use "sections/portfolio-preview";
 @use "sections/prices";
+@use "sections/contact-form-section";
+@use "sections/contacts-us";
 @use "sections/footer";
+@use "sections/modal";
 
 @use "legacy/mini-quiz-form";
 @use "legacy/legacy-contact-form";
