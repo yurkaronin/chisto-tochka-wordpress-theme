@@ -1,140 +1,5 @@
 <?php get_header(); ?>
 
-<header class="header">
-    <div class="wrapper">
-        <div class="header__body">
-
-            <div class="header__top mobile-hide">
-                <div class="header__top-grid">
-                    <div class="header__top-col -city">
-                        <span class="header__city">Воронеж</span>
-                    </div>
-                    <div class="header__top-col -time laptop-hide tablet-hide mobile-hide">
-                        <span class="time">Ежедневно: 10:00–20:00</span>
-                    </div>
-                    <div class="header__top-col -phone laptop-hide tablet-hide mobile-hide">
-                        <!-- Телефон  -->
-                        <?php echo do_shortcode('[phones]'); ?>
-                    </div>
-                    <div class="header__top-col -social">
-                        <!-- соц сети  -->
-                        <?php echo do_shortcode('[social]'); ?>
-                    </div>
-                    <div class="header__top-col -button">
-                        <a href="#" class="link">Записаться</a>
-                    </div>
-                </div>
-            </div>
-            <div class="header__bottom">
-                <div class="header__bottom-grid">
-                    <div class="header__bottom-col -logo">
-
-                        <a class="header__logo" href="#">
-                            <img src="./img/header-logo.svg" alt="#">
-                        </a>
-
-                    </div>
-                    <div class="header__bottom-col -nav laptop-hide tablet-hide mobile-hide">
-                        <!-- десктопная навигация  -->
-                        <div class="decktop-navigation">
-                            <nav class="main-navigation">
-                                <ul class="main-navigation__list">
-                                    <li class="main-navigation__item">
-                                        <a class="main-navigation__link" href="#">Услуги</a>
-                                    </li>
-                                    <li class="main-navigation__item">
-                                        <a class="main-navigation__link" href="#">Пакеты</a>
-                                    </li>
-                                    <li class="main-navigation__item">
-                                        <a class="main-navigation__link" href="#">Квиз</a>
-                                    </li>
-                                    <li class="main-navigation__item">
-                                        <a class="main-navigation__link" href="#">До/После</a>
-                                    </li>
-                                    <li class="main-navigation__item">
-                                        <a class="main-navigation__link" href="#">Цены</a>
-                                    </li>
-                                    <li class="main-navigation__item">
-                                        <a class="main-navigation__link" href="#">Контакты</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-
-
-
-                    </div>
-                    <div class="header__bottom-col -button mobile-hide">
-                        <a href="#" class="link">Рассчитать</a>
-                    </div>
-                    <div class="header__bottom-col -button-menu desktop-hide">
-                        <button class="button-menu js-show-mobile-navigation-menu">
-                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 11H9M1 6H15M7 1H15" stroke="#161A1D" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</header>
-<!-- мобильная навигация  -->
-<div class="mobile-navigation desktop-hide">
-    <div class="mobile-navigation__body">
-        <div class="mobile-navigation__grid">
-
-            <div class="mobile-navigation__row">
-                <nav class="main-navigation">
-                    <ul class="main-navigation__list">
-                        <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#home-section-basic-services">Услуги</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#home-section-service-packages">Пакеты</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#home-section-mini-quiz">Квиз</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#home-section-portfolio-preview">Портфолио</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#home-section-prices">Цены</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a class="main-navigation__link" href="#home-section-contacts">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="mobile-navigation__row">
-                <!-- Телефон  -->
-                <a href="#" class="phone">8 918 089 60 09</a>
-            </div>
-            <div class="mobile-navigation__row">
-                <span class="time">Ежедневно: 10:00–20:00</span>
-            </div>
-            <div class="mobile-navigation__row">
-                <!-- соц сети  -->
-                <?php echo do_shortcode('[social]'); ?>
-            </div>
-        </div>
-
-
-    </div>
-    <button class="button-close" type="button">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19 19L10 10M10 10L1 1M10 10L19.0001 1M10 10L1 19.0001" stroke="#161A1D" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-    </button>
-</div>
-
 <main class="main">
     <!-- Первый экран  -->
     <section class="hero" id="home-section-hero">
@@ -938,17 +803,94 @@
     <!-- Оставьте заявку -->
     <section class="contact-form-section section" id="home-section-contact-form">
         <div class="wrapper">
+<<<<<<< HEAD
+            <div class="contact-form-section__grid">
+                <div class="contact-form-section__col -left">
+                    <h2 class="title"><span>Оставьте заявку — </span><br>перезвоним и рассчитаем стоимость</h2>
+                    <p class="subtitle">Можно сразу позвонить: <?php echo do_shortcode('[phones]'); ?></p>
+                </div>
+                <div class="contact-form-section__col -right">
+                    <?php echo do_shortcode('[contact-form-7 id="b1add7b" title="Заявка на расчёт стоимости"]'); ?>
+                </div>
+            </div>
+
+=======
             <h2 class="title"><span>Оставьте заявку — </span><br>перезвоним и рассчитаем стоимость</h2>
-            <p class="subtitle">Можно сразу позвонить: 8 918 089 60 09</p>
+            <p class="subtitle">Можно сразу позвонить: <?php echo do_shortcode('[phones]'); ?></p>
+>>>>>>> 295edb1a54c85be63a863fd80fb715a2978fa86b
         </div>
     </section>
     <!-- Контакты и адреса -->
     <section class="contact-us section" id="home-section-contacts">
         <div class="wrapper">
-            <h2 class="title mg-reset"><span>Контакты </span><br>и адреса</h2>
-            <p class="subtitle mg-reset">Приезжайте в удобную локацию или запишитесь по телефону</p>
+            <div class="beyond-scope">
+                <div class="contact-us__top">
+                    <div class="contact-us__top-grid">
+                        <div class="contact-us__top-col">
+                            <h2 class="title mg-reset"><span>Контакты </span><br>и адреса</h2>
+                        </div>
+                        <div class="contact-us__top-col">
+                            <p class="subtitle mg-reset">Приезжайте в удобную локацию или запишитесь по телефону</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-us__body">
+
+                    <div class="contact-us__maps-group">
+
+                        <div class="contact-preview-card">
+                            <div class="contact-preview-card__header">
+                                <div class="contact-preview-card__header-col">
+                                    <h3 class="contact-preview-card__title">Филиал №1</h3>
+                                    <address class="contact-preview-card__address">Ул. Героев Сибиряков, 4а</address>
+                                    <a class="contact-preview-card__phone" href="tel:89180896009">8 918 089 60 09</a>
+                                </div>
+                                <div class="contact-preview-card__header-col">
+                                    <a href="#" class="button">Записаться</a>
+                                </div>
+                            </div>
+                            <div class="contact-preview-card__map">
+                                <!-- карта яндекса с адресом филиала  -->
+                                <div class="yandex-map">
+                                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1f13a151972bc44c87279f674f0f19f84a780ac1286e35a38101f48c3842f843&amp;width=100%25&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-preview-card">
+                            <div class="contact-preview-card__header">
+                                <div class="contact-preview-card__header-col">
+                                    <h3 class="contact-preview-card__title">Филиал №2</h3>
+                                    <address class="contact-preview-card__address">Ленинградская улица, 2Ак2</address>
+                                    <a class="contact-preview-card__phone" href="tel:89180896009">8 918 089 60 09</a>
+                                </div>
+                                <div class="contact-preview-card__header-col">
+                                    <a href="#" class="button">Записаться</a>
+                                </div>
+                            </div>
+                            <div class="contact-preview-card__map">
+                                <!-- карта яндекса с адресом филиала  -->
+                                <div class="yandex-map">
+                                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A50590066733524f9d15792d98ddad25ed2fee0da99abd9bb8cd2936706f3917d&amp;width=100%25&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
+                                </div>
+                            </div>
+                        </div>
+
+            <img src="./img/contacts/demo.png" alt="#" style="
+  width: 100%;
+">
+
+<br/>
+<br/>
+<img src="./img/contacts/demo-2.png" alt="#" style="
+  width: 100%;
+">
 
 
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </main>
