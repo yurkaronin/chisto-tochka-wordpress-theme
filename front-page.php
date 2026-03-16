@@ -115,20 +115,17 @@
                                 <article class="preview-card">
                                     <div class="preview-card__header">
                                         <div class="preview-card__photo">
-                                            <img src="./img/preview-card/1.jpg" alt="#">
+                                            <img src="./img/preview-card/2.jpg" alt="#">
                                         </div>
                                     </div>
                                     <div class="preview-card__body">
                                         <div class="preview-card__body-group">
-                                            <h3 class="preview-card__title">Химчистка
-                                                салона</h3>
-                                            <span class="preview-card-price"><b>Цена:</b>от 5 000 ₽</span>
+                                            <h3 class="preview-card__title">Предпродажная подготовка</h3>
+                                            <span class="preview-card-price"><b>Цена:</b>от 10 000 ₽</span>
                                         </div>
 
 
-                                        <p class="preview-card__description">Глубокая чистка ткани/кожи, удаление
-                                            запахов,
-                                            восстановление вида салона.</p>
+                                        <p class="preview-card__description">Быстро приводим авто в «витринный» вид: салон + кузов + детали.</p>
 
                                         <div class="preview-card__buttons">
                                             <a href="#home-section-mini-quiz" class="button -small">Подобрать пакет</a>
@@ -142,20 +139,17 @@
                                 <article class="preview-card">
                                     <div class="preview-card__header">
                                         <div class="preview-card__photo">
-                                            <img src="./img/preview-card/1.jpg" alt="#">
+                                            <img src="./img/preview-card/3.jpg" alt="#">
                                         </div>
                                     </div>
                                     <div class="preview-card__body">
                                         <div class="preview-card__body-group">
-                                            <h3 class="preview-card__title">Химчистка
-                                                салона</h3>
-                                            <span class="preview-card-price"><b>Цена:</b>от 5 000 ₽</span>
+                                            <h3 class="preview-card__title">Полировка кузова</h3>
+                                            <span class="preview-card-price"><b>Цена:</b>от 8 000 ₽</span>
                                         </div>
 
 
-                                        <p class="preview-card__description">Глубокая чистка ткани/кожи, удаление
-                                            запахов,
-                                            восстановление вида салона.</p>
+                                        <p class="preview-card__description">Убираем «паутинку», возвращаем блеск и глубину цвета.</p>
 
                                         <div class="preview-card__buttons">
                                             <a href="#home-section-mini-quiz" class="button -small">Подобрать пакет</a>
@@ -196,7 +190,7 @@
                                     </div>
 
                                     <div class="preview-card-long__footer">
-                                        <span class="preview-card-price"><b>Цена:</b>от 5 000 ₽</span>
+                                        <span class="preview-card-price"><b>Цена:</b>от 8 000 ₽</span>
                                         <a href="#home-section-mini-quiz" class="button -small">Подобрать пакет</a>
                                         <a href="#" class="button -transparent -small">Прайс</a>
 
@@ -803,7 +797,6 @@
     <!-- Оставьте заявку -->
     <section class="contact-form-section section" id="home-section-contact-form">
         <div class="wrapper">
-<<<<<<< HEAD
             <div class="contact-form-section__grid">
                 <div class="contact-form-section__col -left">
                     <h2 class="title"><span>Оставьте заявку — </span><br>перезвоним и рассчитаем стоимость</h2>
@@ -814,10 +807,7 @@
                 </div>
             </div>
 
-=======
-            <h2 class="title"><span>Оставьте заявку — </span><br>перезвоним и рассчитаем стоимость</h2>
-            <p class="subtitle">Можно сразу позвонить: <?php echo do_shortcode('[phones]'); ?></p>
->>>>>>> 295edb1a54c85be63a863fd80fb715a2978fa86b
+
         </div>
     </section>
     <!-- Контакты и адреса -->
@@ -843,10 +833,10 @@
                                 <div class="contact-preview-card__header-col">
                                     <h3 class="contact-preview-card__title">Филиал №1</h3>
                                     <address class="contact-preview-card__address">Ул. Героев Сибиряков, 4а</address>
-                                    <a class="contact-preview-card__phone" href="tel:89180896009">8 918 089 60 09</a>
+                                    <a class="contact-preview-card__phone" href="tel:8473732160">84737321601</a>
                                 </div>
                                 <div class="contact-preview-card__header-col">
-                                    <a href="#" class="button">Записаться</a>
+                                    <a href="#" class="button" data-target="modal-get-consultation">Записаться</a>
                                 </div>
                             </div>
                             <div class="contact-preview-card__map">
@@ -862,10 +852,10 @@
                                 <div class="contact-preview-card__header-col">
                                     <h3 class="contact-preview-card__title">Филиал №2</h3>
                                     <address class="contact-preview-card__address">Ленинградская улица, 2Ак2</address>
-                                    <a class="contact-preview-card__phone" href="tel:89180896009">8 918 089 60 09</a>
+                                    <a class="contact-preview-card__phone" href="tel:84732947200">8 (473) 294-72-00</a>
                                 </div>
                                 <div class="contact-preview-card__header-col">
-                                    <a href="#" class="button">Записаться</a>
+                                    <a href="#" class="button" data-target="modal-get-consultation">Записаться</a>
                                 </div>
                             </div>
                             <div class="contact-preview-card__map">
@@ -875,18 +865,6 @@
                                 </div>
                             </div>
                         </div>
-
-            <img src="./img/contacts/demo.png" alt="#" style="
-  width: 100%;
-">
-
-<br/>
-<br/>
-<img src="./img/contacts/demo-2.png" alt="#" style="
-  width: 100%;
-">
-
-
 
                     </div>
                 </div>

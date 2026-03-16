@@ -20,54 +20,6 @@
 
             <div class="modal__form">
                 <?php echo do_shortcode('[contact-form-7 id="b1add7b" title="Заявка на расчёт стоимости"]'); ?>
-
-                <div class="form">
-                    <div class="form__body">
-                        <div class="form__grid">
-                            <div class="form__item">
-                              <label for="cost-calculation-user-name" class="form__label">Ваше имя</label>
-                                <div class="form__input"><input type="text" name="cost-calculation-user-name" id="cost-calculation-user-name"
-                                        placeholder="Ваше имя" required></div>
-                            </div>
-                            <div class="form__item">
-                              <label for="cost-calculation-user-phone" class="form__label">Ваш телефон</label>
-                                <div class="form__input"><input type="text" name="cost-calculation-user-phone" id="cost-calculation-user-phone"
-                                        placeholder="Введите ваш номер" required></div>
-                            </div>
-                            <button class="button" type="submit">Записаться</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form">
-                    <div class="form__body">
-                        <div class="form__grid">
-                            <div class="form__item">
-                                <label for="user-name" class="form__label">Ваше имя</label>
-                                <div class="form__input">
-                                    <input type="text" name="user-name" id="user-name" placeholder="Ваше имя" required>
-                                </div>
-                            </div>
-
-                            <div class="form__item">
-                                <label for="" class="form__label">Ваш телефон</label>
-
-                                <div class="form__input">
-                                    <input type="text" name="user-name" id="user-name" placeholder="Введите ваш номер"
-                                        required>
-                                </div>
-                            </div>
-
-                            <button class="button" type="submit">Записаться</button>
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-
             </div>
 
             <button class="button-close js-close-modal" type="button">
